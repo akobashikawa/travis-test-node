@@ -1,0 +1,22 @@
+{
+  "name": "travis-test-node",
+  "version": "1.0.0",
+  "description": "Simple node project for travis",
+  "main": "hello.js",
+  "scripts": {
+    "test": "jshint hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akobashikawa/travis-test-node.git"
+  },
+  "author": "Rulo Kobashikawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akobashikawa/travis-test-node/issues"
+  },
+  "homepage": "https://github.com/akobashikawa/travis-test-node#readme",
+  "devDependencies": {
+    "jshint": "^2.9.6"
+  }
+}
